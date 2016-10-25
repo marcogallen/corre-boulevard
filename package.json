@@ -1,0 +1,23 @@
+{
+  "name": "corre-boulevard",
+  "version": "1.0.0",
+  "description": "Corre corre por el boulevard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcogallen/corre-boulevard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcogallen/corre-boulevard/issues"
+  },
+  "homepage": "https://github.com/marcogallen/corre-boulevard#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
