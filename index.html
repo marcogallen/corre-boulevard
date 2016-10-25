@@ -25,7 +25,7 @@
         
         function setup(){
             farTexture = loader.resources["images/bg-far.png"].texture;
-            far = new PIXI.extras.TilingSprite(farTexture, 512, 256);
+            far = new TilingSprite(farTexture, 512, 256);
             
             far.tilePosition.x = 0;
             far.tilePosition.y = 0;
@@ -33,7 +33,7 @@
             stage.addChild(far);
             
             midTexture = loader.resources["images/bg-mid.png"].texture;
-            mid = new PIXI.extras.TilingSprite(midTexture, 512, 256);
+            mid = new TilingSprite(midTexture, 512, 256);
             
             mid.position.x = 0;
             mid.position.y = 128;

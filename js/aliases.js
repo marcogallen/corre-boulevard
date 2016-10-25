@@ -8,4 +8,6 @@ var Container = PIXI.Container,
     TextureCache = PIXI.utils.TextureCache,
     Rectangle = PIXI.Rectangle,
     Text = PIXI.Text,
+    Texture = PIXI.Texture,
+    TilingSprite = PIXI.extras.TilingSprite,
     Graphics = PIXI.graphics;
